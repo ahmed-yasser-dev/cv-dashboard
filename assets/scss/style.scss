@@ -1,0 +1,33 @@
+// =====================
+// Import Variables
+// =====================
+@use 'variables' as *;
+
+// =====================
+// Import Partials
+// =====================
+@use 'sidebar' as *;
+@use 'navbar' as *;
+@use 'components' as *;
+
+// =====================
+// Global Styles
+// =====================
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-main;
+    font-size: $font-size-base;
+    background-color: $dark-bg;
+    color: $text-light;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: $transition;
+}
